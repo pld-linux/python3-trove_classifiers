@@ -5,7 +5,7 @@
 Summary:	Canonical source for classifiers on PyPI
 Name:		python3-%{module}
 Version:	2025.1.15.22
-Release:	2
+Release:	3
 License:	Apache
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/trove-classifiers/trove_classifiers-%{version}.tar.gz
