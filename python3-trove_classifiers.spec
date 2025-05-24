@@ -3,6 +3,7 @@
 
 %define		module	trove_classifiers
 Summary:	Canonical source for classifiers on PyPI
+Summary(pl.UTF-8):	Kanoniczne źródła dla klasyfikatorów na PyPi
 Name:		python3-%{module}
 Version:	2025.1.15.22
 Release:	3
@@ -26,6 +27,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Classifiers categorize projects per PEP 301. Use this package to
 validate classifiers in packages for PyPI upload or download.
+
+%description -l pl.UTF-8
+Klasyfikatory kategoryzują projekty zgodnie z PEP 301. Tego pakietu
+można użyć do sprawdzenia poprawności klasyfikatorów w pakietach przy
+wysyłaniu lub pobieraniu z PyPi.
 
 %prep
 %setup -q -n trove_classifiers-%{version}
